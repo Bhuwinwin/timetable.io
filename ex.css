@@ -1,0 +1,69 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.timetable table th.g0 {
+    width: 5em;
+}
+
+.timetable table th.g1, .timetable table th.g2 {
+    height: 2em;
+    border-top: 1px solid #231815;
+}
+
+.timetable table th.g1 span {
+    background: #8FC31F;
+    display: block;
+    margin: 5px 5px 5px 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.timetable table th.g2 span {
+    background: #80C8EF;
+    display: block;
+    margin: 5px 0 5px 5px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.timetable table th.t {
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+    border-top: 3px solid #000000;
+    line-height: 144%;
+    padding: 0 5px;
+}
+
+.timetable table td ul li.l2 {
+    height: 6em;
+}
+.timetable table td.g2 ul li {
+    margin-left: 5px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, dt, dd, th, td, form {
+    font-weight: normal;
+    font-style: normal;
+    line-height: 188%;
+    max-height: 100%;
+    font-size: inherit;
+    vertical-align: middle;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, figure {
+    margin: 0;
+    padding: 0;
+    overflow-wrap: break-word;
+}
+
+.timetable table td.g2 ul li a {
+    background-color: #DFF1FB;
+}
+
